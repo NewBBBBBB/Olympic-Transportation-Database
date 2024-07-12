@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vehicle_to_trip_relation" directorySegmentName="seg_0" id="784D97D3-79F8-3956-9CBC-1B0857742041">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 09:50:17 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<sourcePk>23831490-B1BF-E5C0-E8B0-85452A2A00E4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>handled</nameOnSource>
+<nameOnTarget>   </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA2CFD8E-7D43-006A-C379-6730F6504E48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA3F6C41-C34E-4DB0-C434-FB6B3E83BD86</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

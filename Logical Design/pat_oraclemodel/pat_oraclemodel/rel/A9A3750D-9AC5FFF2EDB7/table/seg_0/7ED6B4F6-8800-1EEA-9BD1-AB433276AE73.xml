@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ED6B4F6-8800-1EEA-9BD1-AB433276AE73" name="TRIP">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>AA3F6C41-C34E-4DB0-C434-FB6B3E83BD86</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_no" id="C9549EDB-6F47-23A5-4837-2B8309DC184B">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trip number (Surrogate PK)]]></commentInRDBMS>
+<generatorID>177A1F61-C4A9-7D48-73CE-CB72525B044C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_id" id="DA7CAA39-57D1-4337-4081-C345B4F88261">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trip id]]></commentInRDBMS>
+<generatorID>AEBCB7CB-3E26-ABE1-9DA8-BD19DB3EF596</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_passengernum" id="554150E6-353B-5792-2065-00E050DF83B3">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trip Passenger number]]></commentInRDBMS>
+<generatorID>AD9229CE-5C3A-525F-3CE1-F804F0467BED</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_intended_pickup_time" id="81EEF8F4-0391-2B9B-D3E8-F7544374E6A6">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Intended pickup time for the trip]]></commentInRDBMS>
+<generatorID>D8FB851B-299B-2FE3-38E9-818E84BD1C7F</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_actual_pickup_time" id="B10C7D53-D31B-34CE-80F2-ADF876478DE3">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Actual pick up time for the trip]]></commentInRDBMS>
+<generatorID>C1D7E550-26D8-A613-441D-E8C2E1EC4A77</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_intended_dropoff_time" id="BA04A29C-AC64-BB3E-AD2F-D6AD20808591">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Intended drop off time for the trip]]></commentInRDBMS>
+<generatorID>C9277A4A-FD1E-086C-5B08-9CF687A3F49F</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_actual_dropoff_time" id="FDC7FF0D-00F0-B039-7676-620ADC7C94C8">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Actual drop off time for the trip]]></commentInRDBMS>
+<generatorID>0E7FC3AF-0CE8-F038-8DE7-21FB83A2A473</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_id" id="9C218C82-6F20-CA65-AD19-F5858680A3C6">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<generatorID>F1ECD79A-B5DA-E0D1-2133-520F2EBC7EF7</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B56815E4-4CF8-4C6D-8A7E-CD3EE8354EFF" referredColumn="9D0D2E36-FA98-5E38-6C08-C25B5BE9CA50"/>
+</associations>
+</Column>
+<Column name="d_id" id="290E6AB9-CFA6-2381-7045-540EB97B176B">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's identification number]]></commentInRDBMS>
+<generatorID>EC9217D0-0ADF-FD42-9CB1-5CAAB021E362</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DDED813-0765-8654-3B8C-96F0E01D607A" referredColumn="3748687B-AD19-0808-8E19-259CC4A4A599"/>
+</associations>
+</Column>
+<Column name="v_id" id="951F74EF-66A7-1DF3-516A-76ACEA767CCD">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle ID Number]]></commentInRDBMS>
+<generatorID>573C031B-438A-28FF-A28E-E12CB76A980C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCE20CC-36A0-1B11-6038-0CDB0BF6133C" referredColumn="5B14499F-8B83-8B9A-7DB6-74F6D3029EBE"/>
+</associations>
+</Column>
+<Column name="loc_id" id="9ADDE283-56A9-B33D-494A-3110E2EF3167">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[location identification number]]></commentInRDBMS>
+<generatorID>9C1DB309-6527-6D91-A072-6AE84654D1CD</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB6BACD5-B7D3-A7F7-FD5A-C86622A77B31" referredColumn="3BC20C7E-A897-3163-C048-BF7721080574"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A72A1664-484A-B8B5-CFD7-4AD6B21F3D85" name="TRIP_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>F829B30F-F5BC-33FE-53EA-758E7B8527E5</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9549EDB-6F47-23A5-4837-2B8309DC184B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC7213E8-EFD7-05B0-488F-68B4D8FA4067" name="TRIP_t_id_o_id_d_id_v_id_UN">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>A4CECCE6-A13C-F851-F56D-9FE34ED30A83</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7CAA39-57D1-4337-4081-C345B4F88261"/>
+<colUsage columnID="9C218C82-6F20-CA65-AD19-F5858680A3C6"/>
+<colUsage columnID="290E6AB9-CFA6-2381-7045-540EB97B176B"/>
+<colUsage columnID="951F74EF-66A7-1DF3-516A-76ACEA767CCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D66D6D98-F4EE-C680-0BA6-1A1B22600D9D" name="TRIP_DRIVER_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>FD6A78B8-8164-E979-8130-3A8B72772203</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="290E6AB9-CFA6-2381-7045-540EB97B176B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC167F0-3F64-DBBC-BB33-4A2AF7B6F6E3" name="TRIP_OFFICIAL_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>44678917-0800-28B5-8F50-B0400B497EB1</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C218C82-6F20-CA65-AD19-F5858680A3C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F58DCE6-DEED-040D-B612-499495C7006B" name="TRIP_LOCATION_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>59B23297-382B-EB91-7DF7-69B9334A3234</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ADDE283-56A9-B33D-494A-3110E2EF3167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25736A60-4B6F-EEAB-5A5C-66D75FA554C6" name="TRIP_VEHICLE_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>784D97D3-79F8-3956-9CBC-1B0857742041</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="951F74EF-66A7-1DF3-516A-76ACEA767CCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

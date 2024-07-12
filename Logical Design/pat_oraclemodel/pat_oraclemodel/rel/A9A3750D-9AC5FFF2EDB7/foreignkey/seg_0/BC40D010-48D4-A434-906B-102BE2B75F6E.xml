@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC40D010-48D4-A434-906B-102BE2B75F6E" containerWithKeyObject="4235677F-F673-038A-35F0-5433CFF2CA41" localFKIndex="FF00117C-EA59-6AF6-482B-25C83B45381A" name="OFFICIAL_NOC_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>66DB6F36-B4E5-81CC-7823-B5D239FA8127</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<referredTableLongName>NOC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75FA8778-55C9-9203-0C11-4C9F303D62EC</referredTableID>
+<keyObject>AE41B45F-9B30-E288-2703-A1C37A250F9A</keyObject>
+<referredKeyID>AE41B45F-9B30-E288-2703-A1C37A250F9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>n_ioccode</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vehicle_to_manaufacturer_relation" directorySegmentName="seg_0" id="B2D95AE5-C703-4E1C-3CCD-9C0C57D9E57C">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 09:59:58 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<sourcePk>23831490-B1BF-E5C0-E8B0-85452A2A00E4</sourcePk>
+<targetPk>94A70F89-36C5-7B97-6D2A-A3A9117889CC</targetPk>
+<identifying>false</identifying>
+<nameOnSource>created_by</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FA2CFD8E-7D43-006A-C379-6730F6504E48</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F956AB26-71AA-05F0-3247-8FFF12ED86BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

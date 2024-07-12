@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3705F473-567C-0148-749D-9A27DF2EA882" name="LANGUAGE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>85363BDE-3545-E1DF-1404-39260B7ECC24</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="l_code" id="2E86E408-1CD7-7FAA-476F-B5DE4BD0045F">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[code of the language spoken]]></commentInRDBMS>
+<generatorID>654645FE-1535-85E9-85C5-052EFDB4566D</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="l_name" id="63EE3D00-028F-C4EF-D143-2C83A82FF915">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the language spoken]]></commentInRDBMS>
+<generatorID>2D526D73-1889-2DB4-AE16-2EA2B05CD8AD</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_id" id="B7C682BF-BE1C-F613-C356-51DFD0CE8C6F">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's identification number]]></commentInRDBMS>
+<generatorID>6CCF9F01-A614-1D7A-5FE1-C275048D9DCF</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E646BA4-6B8A-1A06-56E8-C896E2E3C36F" referredColumn="3748687B-AD19-0808-8E19-259CC4A4A599"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D11D529C-7936-4466-CEF7-F79EA5D9AE24" name="LANGUAGE_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>496BC87E-6385-E052-03F1-E9B5F557C038</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E86E408-1CD7-7FAA-476F-B5DE4BD0045F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00309E1F-49AF-AD76-EB30-787B95C5DB50" name="LANGUAGE_DRIVER_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>7707E721-9C66-BEB4-671A-1145E875EDDF</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C682BF-BE1C-F613-C356-51DFD0CE8C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

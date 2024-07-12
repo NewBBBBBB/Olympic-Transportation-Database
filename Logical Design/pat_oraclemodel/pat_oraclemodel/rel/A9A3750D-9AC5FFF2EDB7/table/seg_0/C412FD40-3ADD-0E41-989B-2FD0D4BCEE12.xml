@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C412FD40-3ADD-0E41-989B-2FD0D4BCEE12" name="TRAINING">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>EF1F14CF-713E-4B08-00D4-624CB73D75E2</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tm_code" id="6DF9C583-3056-92E4-3322-4FCCCFF3C714">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[the code of the training module]]></commentInRDBMS>
+<generatorID>EA9AEE75-1228-7349-7553-7E95B4177CE7</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tm_name" id="63230927-26C0-A3C8-B4F4-B663596BE3EB">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the training module]]></commentInRDBMS>
+<generatorID>16B4C530-ECFC-4E06-563C-E3E780490307</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tm_desc" id="96E1BA7E-9447-DE21-51BD-78D3D76B3DCE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[description of the training module]]></commentInRDBMS>
+<generatorID>5464FDE9-97A0-FC37-72BF-5F29F107E9C5</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tm_expiryperiod" id="0ECF6FD5-1F37-9F45-7361-32375BA32464">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[the expiry period for the training module]]></commentInRDBMS>
+<generatorID>3647A01D-17E2-A4CE-84F1-30FC2C992589</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tm_length" id="822EBD02-6D26-7D70-093F-BB9EE98DB12D">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Training module length]]></commentInRDBMS>
+<generatorID>193A5376-7BC2-2044-E95A-228D57A6CD53</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<constraintName>CHK_MODULE_LENGTH</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+<description>Module length</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3623D1D4-C204-DA45-4980-A3D717FB3F82" name="TRAINING_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>79D60D62-25E8-F042-4133-B5711BBC2750</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DF9C583-3056-92E4-3322-4FCCCFF3C714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4235677F-F673-038A-35F0-5433CFF2CA41" name="OFFICIAL">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>802440A8-C196-64B6-DDAF-2DCF09C4AC9E</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="o_id" id="9D0D2E36-FA98-5E38-6C08-C25B5BE9CA50">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<generatorID>0F2662C1-199B-E612-5A3A-D976CB995D32</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_fname" id="691A3446-D145-C2F9-3598-87157FE7C508">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's first name]]></commentInRDBMS>
+<generatorID>74C27713-E3A2-D31A-AAF4-A7F6A4C56B28</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_lname" id="4155E218-31FD-B1E6-7986-A414814BF752">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's last name]]></commentInRDBMS>
+<generatorID>5B737959-453E-F463-337B-7743EC99E36C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_role" id="471F8461-3C73-224D-1980-886CA8610289">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official with an administrator role]]></commentInRDBMS>
+<generatorID>586EC943-2620-59C6-4FCA-550DA78E7874</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_ioccode" id="4BB8D1CB-0FA5-F441-C011-979AB18245AE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's IOC code]]></commentInRDBMS>
+<generatorID>4B6B3161-ABF1-2C62-CF9D-D5C095079B32</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC40D010-48D4-A434-906B-102BE2B75F6E" referredColumn="D64B77B5-CDC7-315B-59AB-9E6743F48255"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BDBDFB0-D082-783F-2417-5A78A41A0D9E" name="OFFICIAL_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>09AA0E86-984C-EBC9-3B27-C485710E8CD4</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D0D2E36-FA98-5E38-6C08-C25B5BE9CA50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF00117C-EA59-6AF6-482B-25C83B45381A" name="OFFICIAL_NOC_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>66DB6F36-B4E5-81CC-7823-B5D239FA8127</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB8D1CB-0FA5-F441-C011-979AB18245AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

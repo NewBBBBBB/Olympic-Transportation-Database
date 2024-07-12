@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81D1BAF6-1FD0-49F6-3DDC-8AD8461840D9" name="FEATURE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>A267E53D-DB75-3A40-98E9-C4DC53BFA508</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="v_id" id="40BCF4FF-910D-CBA2-0E5A-538AD9A27C0C">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle ID Number]]></commentInRDBMS>
+<generatorID>D774A3A2-A9F9-79ED-44BD-CB44C413645D</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285EB73A-6699-FD74-7905-7A8EBF9ABD18" referredColumn="5B14499F-8B83-8B9A-7DB6-74F6D3029EBE"/>
+</associations>
+</Column>
+<Column name="f_features" id="B9D316CC-621C-0158-657B-CF098AD765F3">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle feature]]></commentInRDBMS>
+<generatorID>1F503706-117C-1DC7-5E2A-5FAC1059D6E7</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B8F169-EDF1-3538-373F-BF43E4D7A874" name="FEATURE_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>FF5E5239-F4CC-5A2A-86D0-479AB409A70C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BCF4FF-910D-CBA2-0E5A-538AD9A27C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00BED389-BF63-4917-30F0-18F2E4F07385" name="FEATURE_VEHICLE_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>F139E715-316C-3198-05AD-31CC444003BE</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BCF4FF-910D-CBA2-0E5A-538AD9A27C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

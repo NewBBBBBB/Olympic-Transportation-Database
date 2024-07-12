@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="070761FB-B6F6-30BA-D530-97463DE37717" name="NOC">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:31:58 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="n_ioccode" id="0B2040DB-D4C7-2DAC-D6DA-3CF5529794A8">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's IOC code]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_countryname" id="90168D44-8F16-8983-2075-BF0C682ED7D2">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:33:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's Country Name]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_population" id="45B0D326-5195-4DB4-78D8-07549AFD17A1">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:35:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's population]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="o_id" id="B098CEFA-10D1-6915-1FC3-E8460C89572E">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 11:07:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<generatorID>F915FFFA-B65C-D1DC-6E79-1EDDA25EF0FE</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<referedAttribute>0F2662C1-199B-E612-5A3A-D976CB995D32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="772BE038-A783-5633-C687-3DCEBE092096" name="NOC PK">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:32:24 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B2040DB-D4C7-2DAC-D6DA-3CF5529794A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84841ED6-9844-37B0-830D-9F298C7EA851" name="OFFICIAL">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>802440A8-C196-64B6-DDAF-2DCF09C4AC9E</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="o_id" id="1A563102-2EAD-E72F-C083-EBB2B8BACE3B">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<generatorID>0F2662C1-199B-E612-5A3A-D976CB995D32</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_fname" id="B2EBE11E-5639-9C31-9236-31AAED1D8282">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's first name]]></commentInRDBMS>
+<generatorID>74C27713-E3A2-D31A-AAF4-A7F6A4C56B28</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_lname" id="77EA9C74-90E0-0C37-AE5D-180BE5898B78">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>5B737959-453E-F463-337B-7743EC99E36C</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_role" id="0A0457EC-FF0D-B826-BB25-B93749FF53C1">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[official with an administrator role]]></commentInRDBMS>
+<generatorID>586EC943-2620-59C6-4FCA-550DA78E7874</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_ioccode" id="AA7B9A4E-FCD8-ABC1-A94F-61A86D7382C0">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's IOC code]]></commentInRDBMS>
+<generatorID>4B6B3161-ABF1-2C62-CF9D-D5C095079B32</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A86C915-0FFA-5B69-5E29-D4C5C7244B19" referredColumn="6356B928-823F-71CB-DA84-FA3A406A8C94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6CE680C-A38F-44A2-B5C6-172713A97BB2" name="OFFICIAL_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>09AA0E86-984C-EBC9-3B27-C485710E8CD4</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A563102-2EAD-E72F-C083-EBB2B8BACE3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E819E1-5706-7B67-1CD3-B9D12747C1B5" name="OFFICIAL_NOC_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>66DB6F36-B4E5-81CC-7823-B5D239FA8127</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7B9A4E-FCD8-ABC1-A94F-61A86D7382C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

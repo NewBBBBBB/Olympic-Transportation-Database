@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pat_logical" id="B7B7BAD1-86C9-E629-ADB7-3E940BAB88D0" version="3.5">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 07:51:26 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7B7BAD1-86C9-E629-ADB7-3E940BAB88D0</designId>
+</OSDM_Design>

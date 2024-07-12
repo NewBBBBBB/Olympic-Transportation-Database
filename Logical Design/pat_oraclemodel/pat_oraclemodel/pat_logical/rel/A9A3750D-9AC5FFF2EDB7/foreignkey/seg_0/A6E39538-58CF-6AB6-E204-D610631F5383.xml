@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6E39538-58CF-6AB6-E204-D610631F5383" containerWithKeyObject="AB0B1445-F481-DB1B-C65D-824A38391EE8" localFKIndex="36337E2C-3698-9979-8BF3-8BBDB383AA54" name="TRIP_DRIVER_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>FD6A78B8-8164-E979-8130-3A8B72772203</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<referredTableLongName>DRIVER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00520CB2-C018-E087-4AE9-1F5C6C4ED033</referredTableID>
+<keyObject>D14F46CB-4CB5-8D29-1A7F-FF15F6936DF7</keyObject>
+<referredKeyID>D14F46CB-4CB5-8D29-1A7F-FF15F6936DF7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>d_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

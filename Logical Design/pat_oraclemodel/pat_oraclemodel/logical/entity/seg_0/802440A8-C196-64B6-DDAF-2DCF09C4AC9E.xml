@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802440A8-C196-64B6-DDAF-2DCF09C4AC9E" name="OFFICIAL">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:14:10 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="o_id" id="0F2662C1-199B-E612-5A3A-D976CB995D32">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:26:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="o_fname" id="74C27713-E3A2-D31A-AAF4-A7F6A4C56B28">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:27:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's first name]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="o_lname" id="5B737959-453E-F463-337B-7743EC99E36C">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 08:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's last name]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="o_role" id="586EC943-2620-59C6-4FCA-550DA78E7874">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 11:02:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[official with an administrator role]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_ioccode" id="4B6B3161-ABF1-2C62-CF9D-D5C095079B32">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:48:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's IOC code]]></commentInRDBMS>
+<generatorID>66DB6F36-B4E5-81CC-7823-B5D239FA8127</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<referedAttribute>0B2040DB-D4C7-2DAC-D6DA-3CF5529794A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09AA0E86-984C-EBC9-3B27-C485710E8CD4" name="OFFICIAL PK">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:27:10 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F2662C1-199B-E612-5A3A-D976CB995D32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

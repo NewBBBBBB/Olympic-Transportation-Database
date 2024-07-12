@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805C70DF-C84A-8BE5-328F-8B19C299786C" name="VEHICLE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>FA2CFD8E-7D43-006A-C379-6730F6504E48</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="v_id" id="5B14499F-8B83-8B9A-7DB6-74F6D3029EBE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle ID Number]]></commentInRDBMS>
+<generatorID>800651B3-5C01-E1EB-9DA1-8359CF26EE1C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="v_registrationplate" id="3E6B8E65-FD62-5979-219B-E3810F9B722B">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle registration number]]></commentInRDBMS>
+<generatorID>E5951B32-7842-C470-757D-B17F73EF6177</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="v_manufacture_year" id="F3D1829F-F711-0FD4-49FB-E0CF90813497">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle manufacturer year]]></commentInRDBMS>
+<generatorID>0BE86011-2D63-CE97-52E4-2537C6712553</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="v_odometerreading" id="BE49F117-08FB-0863-4A60-CAAA1FAEF8D7">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle current odometer]]></commentInRDBMS>
+<generatorID>AC3FB6E8-F2B8-DCA3-9CE1-3141B2B3740C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="v_nopassengers" id="15720356-F41D-E5B5-50ED-FDC9B81D70DE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of passengers
+]]></commentInRDBMS>
+<generatorID>7125CA1E-FF83-085F-1AC3-6BD844B2469A</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_id" id="77436F2D-7CD3-FB97-303A-DE652F52FEFA">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's identification number]]></commentInRDBMS>
+<generatorID>B97A07CF-03A5-090E-E755-618D6D118803</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65EA54C-D7B5-2705-4457-4BDEDEB806EE" referredColumn="3748687B-AD19-0808-8E19-259CC4A4A599"/>
+</associations>
+</Column>
+<Column name="m_vehiclemodel" id="9D8E657D-D6FD-C3FF-F222-52EE81445FCD">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle model]]></commentInRDBMS>
+<generatorID>E0F84AAF-8328-3242-075C-CAA2559DCB25</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1401877-B5FC-DA81-6AEF-05E26875A723" referredColumn="D01B0FD8-23EB-CC54-D0E6-2F65EA5000F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0615A010-CBC3-A0FF-384B-4753715C80A3" name="VEHICLE_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>23831490-B1BF-E5C0-E8B0-85452A2A00E4</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B14499F-8B83-8B9A-7DB6-74F6D3029EBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD1E6DD5-E238-C577-BF3A-DC7CAB1A273E" name="VEHICLE_DRIVER_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>443F4C0C-F292-6999-C604-5FF99C5F7CCA</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77436F2D-7CD3-FB97-303A-DE652F52FEFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F9A48F1-919B-31BA-93B4-0B38FB7B9AE4" name="VEHICLE_MANUFACTURER_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>B2D95AE5-C703-4E1C-3CCD-9C0C57D9E57C</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D8E657D-D6FD-C3FF-F222-52EE81445FCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trip_to_location_relation" directorySegmentName="seg_0" id="59B23297-382B-EB91-7DF7-69B9334A3234">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 09:56:26 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<sourcePk>F829B30F-F5BC-33FE-53EA-758E7B8527E5</sourcePk>
+<targetPk>842D9D13-774E-E127-64F9-3C6051E45E6D</targetPk>
+<identifying>false</identifying>
+<nameOnSource>contains</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AA3F6C41-C34E-4DB0-C434-FB6B3E83BD86</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>98A3C561-CC33-6795-878E-1664CEA8E9AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

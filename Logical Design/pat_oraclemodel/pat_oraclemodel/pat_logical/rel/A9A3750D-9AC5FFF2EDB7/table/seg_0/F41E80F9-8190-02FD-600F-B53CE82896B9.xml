@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F41E80F9-8190-02FD-600F-B53CE82896B9" name="LOCATION">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>98A3C561-CC33-6795-878E-1664CEA8E9AF</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="loc_id" id="C16BDD13-5180-8618-976B-6DC90A983FA8">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[location identification number]]></commentInRDBMS>
+<generatorID>311B0830-F075-5D91-4A29-A37155631AF4</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_name" id="DD65FA1B-C14F-FFDF-D166-25BBE50D12DE">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of location]]></commentInRDBMS>
+<generatorID>117D82F3-E13F-C63E-33CA-51D4AE7BC241</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_type" id="24818990-E61C-C181-352B-9F7BBFE2E2ED">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[type of location]]></commentInRDBMS>
+<generatorID>4C02DD2C-D26C-C10E-8EFE-EE8E6705B44B</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_streetnumber" id="C91F12EB-B705-E965-7038-415550A75495">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[location street number ]]></commentInRDBMS>
+<generatorID>22AC28B9-9B29-6BC8-E842-E43D0B0E87D6</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_streetname" id="02DD1966-2F10-1736-B9C3-8BD2E82C92E5">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location street name]]></commentInRDBMS>
+<generatorID>50128555-019C-B6CD-651C-535C84739EF8</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_postalcode" id="E4EDD3CF-1EA4-2E40-34DA-BA0A764CA87A">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[location post code]]></commentInRDBMS>
+<generatorID>4552067A-E6F9-F4FB-672E-7F3DA814708F</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_city" id="F2EF0DA0-391D-4C21-E1AE-AD24CC9A57B2">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location city]]></commentInRDBMS>
+<generatorID>A18041E0-708F-5379-E5E4-450A6429F628</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_no" id="6EF4A8A0-757F-66AA-FEBF-A29D7893F9A7">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trip number (Surrogate PK)]]></commentInRDBMS>
+<generatorID>6901495C-AEEE-D47D-5C2D-97C8BB518812</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F19E29-8210-41E2-443D-C250F3DD7473" referredColumn="A607D3D9-1134-7ADB-34CD-70ADADF0B731"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0487C50B-30F3-B15D-2C9B-37FC67111939" name="LOCATION_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>842D9D13-774E-E127-64F9-3C6051E45E6D</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C16BDD13-5180-8618-976B-6DC90A983FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7C3584C-4FDC-8557-7103-071C3F34A342" name="LOCATION_TRIP_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>59B23297-382B-EB91-7DF7-69B9334A3234</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF4A8A0-757F-66AA-FEBF-A29D7893F9A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Driver_to_Trip_relation" directorySegmentName="seg_0" id="FD6A78B8-8164-E979-8130-3A8B72772203">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 09:37:40 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<sourcePk>A21B2F9C-F33F-28F9-8B7C-20464011937F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>  </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED95D81A-AAC8-5A2E-22A1-4D1E12F04365</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA3F6C41-C34E-4DB0-C434-FB6B3E83BD86</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

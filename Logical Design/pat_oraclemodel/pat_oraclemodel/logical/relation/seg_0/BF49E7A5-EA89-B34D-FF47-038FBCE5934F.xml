@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="driver_to_trainingcompleted_relation" directorySegmentName="seg_0" id="BF49E7A5-EA89-B34D-FF47-038FBCE5934F">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:50:57 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<sourcePk>A21B2F9C-F33F-28F9-8B7C-20464011937F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>completed</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED95D81A-AAC8-5A2E-22A1-4D1E12F04365</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8A719C7-4974-6794-F4A4-7459DCCF40F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

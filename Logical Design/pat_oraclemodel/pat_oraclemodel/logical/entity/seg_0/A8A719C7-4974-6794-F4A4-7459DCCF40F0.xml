@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8A719C7-4974-6794-F4A4-7459DCCF40F0" name="TCOMPLETED">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:45:14 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tc_no" id="A8ABE37A-3F7A-777E-45B9-E46C8F21C224">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 11:31:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[trainingcompleted number (Surrogate PK)]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_id" id="1DEF7459-2E72-59CD-2DB9-6973A0E2F9CA">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:50:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's identification number]]></commentInRDBMS>
+<generatorID>BF49E7A5-EA89-B34D-FF47-038FBCE5934F</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<referedAttribute>02EC04B5-EA77-3798-3146-410552CBFDDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tm_code" id="3208A7E1-A0E2-4AFC-0EB9-3E516201D219">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:54:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[the code of the training module]]></commentInRDBMS>
+<generatorID>E76363A3-90E3-FCFE-A037-E1BCA4566EB4</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<referedAttribute>EA9AEE75-1228-7349-7553-7E95B4177CE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tc_datecompleted" id="CD31DD53-975B-DA28-E1F6-330017C1948A">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:45:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[the completed date of the training module that was completed]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32C75A1A-981E-8A3C-1934-D235B69587AD" name="TRAININGCOMPLETED PK">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 11:13:04 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8ABE37A-3F7A-777E-45B9-E46C8F21C224</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="394C4F89-C54E-F415-84EB-66F2701548F3" name="NK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 11:34:51 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<newElementsIDs>1DEF7459-2E72-59CD-2DB9-6973A0E2F9CA,3208A7E1-A0E2-4AFC-0EB9-3E516201D219</newElementsIDs>
+<usedAttributes>
+<attributeRef>1DEF7459-2E72-59CD-2DB9-6973A0E2F9CA</attributeRef>
+<attributeRef>3208A7E1-A0E2-4AFC-0EB9-3E516201D219</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED95D81A-AAC8-5A2E-22A1-4D1E12F04365" name="DRIVER">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:08:27 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="d_id" id="02EC04B5-EA77-3798-3146-410552CBFDDF">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:08:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's identification number]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_fname" id="811B68BE-48EE-9413-ECEF-8B4CC04C2E2A">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:10:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver's first name]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_lname" id="20018C86-6954-1BAA-C38A-8ADC7A794FD8">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 08:55:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver last name]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_licensenum" id="F86AA67F-29C2-7141-A486-35F4116603AB">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:56:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the license number of the driver]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_securitylvl" id="1BE43ADF-C719-77EB-2867-8020D1B7F71E">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:56:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[the security level of the driver]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_suspended" id="1C0F9582-00C5-377C-85AD-00F5313D1BCA">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:57:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver is suspended or not]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_totalcompletedmodule" id="F7CEFBA0-0419-8FC9-D5F2-8862125061E8">
+<createdBy>user</createdBy>
+<createdTime>2024-04-30 10:58:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[the total number of completed module from a driver]]></commentInRDBMS>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A21B2F9C-F33F-28F9-8B7C-20464011937F" name="DRIVER PK">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:10:41 UTC</createdTime>
+<ownerDesignName>pat_logical</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02EC04B5-EA77-3798-3146-410552CBFDDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

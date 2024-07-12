@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14F19E29-8210-41E2-443D-C250F3DD7473" containerWithKeyObject="F41E80F9-8190-02FD-600F-B53CE82896B9" localFKIndex="E7C3584C-4FDC-8557-7103-071C3F34A342" name="LOCATION_TRIP_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-01 15:50:16 UTC</createdTime>
+<generatorID>59B23297-382B-EB91-7DF7-69B9334A3234</generatorID>
+<ownerDesignName>pat_logical</ownerDesignName>
+<referredTableLongName>TRIP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB0B1445-F481-DB1B-C65D-824A38391EE8</referredTableID>
+<keyObject>4A515256-6AA8-9F20-3792-9A3C24F028CA</keyObject>
+<referredKeyID>4A515256-6AA8-9F20-3792-9A3C24F028CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>t_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

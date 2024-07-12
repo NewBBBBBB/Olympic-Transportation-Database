@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75FA8778-55C9-9203-0C11-4C9F303D62EC" name="NOC">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>070761FB-B6F6-30BA-D530-97463DE37717</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="n_ioccode" id="D64B77B5-CDC7-315B-59AB-9E6743F48255">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's IOC code]]></commentInRDBMS>
+<generatorID>0B2040DB-D4C7-2DAC-D6DA-3CF5529794A8</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_countryname" id="739AC490-DB90-321B-EF20-543A3D2A195D">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's Country Name]]></commentInRDBMS>
+<generatorID>90168D44-8F16-8983-2075-BF0C682ED7D2</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_population" id="717CDAE5-C3D7-6BC9-20F3-E7391DFDC01D">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[National Olympic Committee's population]]></commentInRDBMS>
+<generatorID>45B0D326-5195-4DB4-78D8-07549AFD17A1</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o_id" id="212F99B8-AA10-DB0F-000D-5BCE162ACB27">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[official's identification number]]></commentInRDBMS>
+<generatorID>B098CEFA-10D1-6915-1FC3-E8460C89572E</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BE37285-7E7F-0E04-A504-A9674DBD352B" referredColumn="9D0D2E36-FA98-5E38-6C08-C25B5BE9CA50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE41B45F-9B30-E288-2703-A1C37A250F9A" name="NOC_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>772BE038-A783-5633-C687-3DCEBE092096</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D64B77B5-CDC7-315B-59AB-9E6743F48255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EF6E1E1-F337-7805-8D95-9C8200F64132" name="NOC__IDX">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F915FFFA-B65C-D1DC-6E79-1EDDA25EF0FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="212F99B8-AA10-DB0F-000D-5BCE162ACB27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B6FBEE-4AFE-9B52-0D8A-B8266B6341C0" name="NOC_OFFICIAL_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-05-02 14:53:50 UTC</createdTime>
+<generatorID>F915FFFA-B65C-D1DC-6E79-1EDDA25EF0FE</generatorID>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="212F99B8-AA10-DB0F-000D-5BCE162ACB27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

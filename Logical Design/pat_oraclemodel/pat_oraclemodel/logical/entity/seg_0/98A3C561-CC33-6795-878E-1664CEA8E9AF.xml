@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98A3C561-CC33-6795-878E-1664CEA8E9AF" name="LOCATION">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:28:06 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loc_id" id="311B0830-F075-5D91-4A29-A37155631AF4">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:28:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[location identification number]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_name" id="117D82F3-E13F-C63E-33CA-51D4AE7BC241">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:29:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of location]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_type" id="4C02DD2C-D26C-C10E-8EFE-EE8E6705B44B">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:30:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[type of location]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_streetnumber" id="22AC28B9-9B29-6BC8-E842-E43D0B0E87D6">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:31:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[location street number ]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_streetname" id="50128555-019C-B6CD-651C-535C84739EF8">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 09:00:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location street name]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_postalcode" id="4552067A-E6F9-F4FB-672E-7F3DA814708F">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 09:00:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[location post code]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loc_city" id="A18041E0-708F-5379-E5E4-450A6429F628">
+<createdBy>User</createdBy>
+<createdTime>2024-04-30 09:01:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location city]]></commentInRDBMS>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="842D9D13-774E-E127-64F9-3C6051E45E6D" name="LOCATION PK">
+<createdBy>ashii</createdBy>
+<createdTime>2024-04-30 08:29:33 UTC</createdTime>
+<ownerDesignName>pat_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A9A3750D-70B3-FB54-41DD-9AC5FFF2EDB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>311B0830-F075-5D91-4A29-A37155631AF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
